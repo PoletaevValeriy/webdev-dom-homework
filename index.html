@@ -13,10 +13,11 @@
       
       <div class="add-form" id="adding">
         <input
+          disabled="true"
           type="text"
           class="add-form-name"
           id="name"
-          placeholder="Введите ваше имя"
+         
         />
         <textarea
           type="textarea"
@@ -30,8 +31,12 @@
         </div> 
       </div>
       <div id="loader">Комментарий добавляются...</div>
+      <div id="entrance">Чтобы добавить комментарий, <button class="link-form-button" id="link-button">авторизуйтесь</button></div>
     </div>
-    <script src="./comments.js">
+
+    
+    <script type="module" src="./modules/index.js">
+
     </script>
   </body>
 
